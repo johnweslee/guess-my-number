@@ -42,6 +42,7 @@ document.querySelector(againButtonElementSelector).addEventListener('click', fun
     disableButton(checkButtonElementSelector, false);
     disableButton(againButtonElementSelector, true);
     setElementContent(scoreElementSelector, defaultScore);
+    gameScore = defaultScore;
     secretNumber = getSecretNumber();
     setElementContent(secretNumberElementSelector, '?');
 });
